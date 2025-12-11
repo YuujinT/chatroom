@@ -261,8 +261,8 @@
     // 初始化：加载消息
     fetchMessages();
 
-    // 定期刷新消息（每3秒）
-    setInterval(fetchMessages, 3000);
+    // 定期刷新消息（每2秒）
+    setInterval(fetchMessages, 2000);
 </script>
 </body>
 </html>
