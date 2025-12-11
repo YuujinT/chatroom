@@ -98,6 +98,9 @@ public class LoginServlet extends HttpServlet {
         HttpSession session = request.getSession(true);
         session.setAttribute(LOGGED_IN_USERNAME, username);
 
+        // 用户登录成功，添加到在线用户列表
+        OnlineUserManager.userLogin(context, username);
+
         response.setStatus(HttpServletResponse.SC_OK);
         response.getWriter().write("success");
     }
