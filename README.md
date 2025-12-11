@@ -1,5 +1,5 @@
 # 简单网页聊天室
-
+[🌲Enhanced Version Branch](https://github.com/YuujinT/chatroom/tree/enhanced)
 ## 项目概述
 
 这是一个基于 Jakarta EE 的简单网页聊天室应用，使用 Servlet、JSP 和原生 JavaScript 技术实现。该项目实现了用户登录/注册、在线消息发送和展示等功能。
